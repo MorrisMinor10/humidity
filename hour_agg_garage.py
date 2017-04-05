@@ -25,8 +25,8 @@ if (1>0):
                 newst = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:00:00')
                 newst2 = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H')
                 connection = MySQLdb.connect(host= "localhost",
-                user="root",
-                passwd="mantas12jacob18",
+                user="X",
+                passwd="X",
                 db="temperature")
 
 #               if y >= 1:
