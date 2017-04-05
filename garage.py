@@ -33,8 +33,8 @@ def run_it(sc):
                 ts = time.time()
                 st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
                 conn = MySQLdb.connect(host= "localhost",
-                user="root",
-                passwd="mantas12jacob18",
+                user="X",
+                passwd="X",
                 db="temperature")
                 x = conn.cursor()
 #               if y >= 1:
